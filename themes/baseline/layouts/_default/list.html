@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="postpre">
+<div class="posts_center">
+<h1>{{ .Title }}</h1>
+</div>
+
+{{ range .Pages.ByPublishDate.Reverse }}
+<p>
+    <div class="single_post_pre">
+
+        <article class="post-entry">
+            <header class="entry-header">
+                <h2>{{ .Title }}</h2>
+            </header>
+            <div class="entry-content">
+                <posts_pre>{{ partial "metadata.html" . }}</posts_pre><br>
+            </div>
+                <posts_pre>{{ .Summary }}</posts_pre>
+            <a class="entry-link" aria-label="post link to Features" href="{{ .RelPermalink }}"></a>
+        </article>
+</div>
+</p>
+
+{{ end }}
+</div>
+{{ end }}

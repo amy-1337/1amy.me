@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="content_article"> 
+
+<h1>{{.Title }}</h1>
+{{ partial "metadata.html" . }}
+<br><br>
+{{.Content}}
+</div>
+{{ end }}

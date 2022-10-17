@@ -1,0 +1,23 @@
+baseURL = '/'
+languageCode = 'en-us'
+theme = 'baseline'
+summaryLength = 11
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/amy-1337"
+
+  [[params.social]]
+   name = "email"
+   url  = "mailto:hi@1amy.me"
+
+  [[params.social]]
+   name = "gpg"
+   url  = "https://1amy.me/public-key.gpg"
+
+[params]
+  title = "amy."
+  items = ""
+  intro = "Hej, I'm Amy 👋"
+  biographie = "I'm a gay girl who likes to tinker with computers and does cursed things."
+  attributes = ["Android Dev", "Datahoarder", "Train Nerd"]
