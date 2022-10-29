@@ -88,6 +88,10 @@ icons {
   margin-block-start: 50px;
 }
 
+bio_small {
+  font-family: system-ui;
+}
+
 attributes {
   font-size: 18px;
   font-family: system-ui;
@@ -156,7 +160,7 @@ content_text {
     margin-right: 300px;
     margin-left: 300px;
   }
-  
+
   .single_post_pre {
     margin-right: 300px;
     margin-left: 300px;
