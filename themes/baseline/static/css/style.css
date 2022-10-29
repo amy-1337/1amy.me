@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0; 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  }  
+}
 
 .content {  
   max-width: 1040px;
@@ -15,7 +15,7 @@ body {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-}  
+}
 
 @media screen and (max-width: 500px) {
   .content {
@@ -35,7 +35,7 @@ body {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-}  
+}
 
 @media screen and (max-width: 500px) {
   .content_article {
@@ -55,7 +55,7 @@ body {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-}  
+}
 
 @media screen and (max-width: 500px) {
   .postpre {
@@ -65,13 +65,13 @@ body {
       padding-bottom: 0px;
       padding-left: 40px;
   }
-  }
-
+}
 
 a{  
     text-decoration: none !important;  
     color: rgb(251, 252, 196);
 }
+
 h1 {
   font-family: Inter;
   font-size: 46px;
@@ -87,6 +87,7 @@ icons {
 .second_space {
   margin-block-start: 50px;
 }
+
 attributes {
   font-size: 18px;
   font-family: system-ui;
@@ -101,12 +102,12 @@ content_text {
   font-size: 18px;
   font-family: system-ui;
 }
+
 .content p {
   font-size: 18px;
   font-family: system-ui;
   max-width: 500px;
 }
-
 
 .footer{  
   display: flex;  
@@ -116,6 +117,7 @@ content_text {
   background: rgb(16, 13, 20);  
   padding: 10px;  
 }
+
 .entry-link {
   position: absolute;
   left: 0;
@@ -139,7 +141,6 @@ content_text {
   border: 1px solid rgb(51, 51, 51);
 }
 
-
 .post-entry:hover {
   position: relative;
   margin-bottom: 14px;
@@ -151,18 +152,15 @@ content_text {
 }
 
 @media (min-width: 830px) {
-
   .posts_center {
     margin-right: 300px;
     margin-left: 300px;
   }
   
-  
   .single_post_pre {
     margin-right: 300px;
     margin-left: 300px;
   }
-
 }
 
 
