@@ -89,22 +89,22 @@ icons {
 }
 
 bio_small {
-  font-family: system-ui;
+  font-family: Inter;
 }
 
 attributes {
   font-size: 18px;
-  font-family: system-ui;
+  font-family: Inter;
 }
 
 content_text {
   font-size: 18px;
-  font-family: system-ui;
+  font-family: Inter;
 }
 
 .content p {
   font-size: 18px;
-  font-family: system-ui;
+  font-family: Inter;
   max-width: 500px;
 }
 
